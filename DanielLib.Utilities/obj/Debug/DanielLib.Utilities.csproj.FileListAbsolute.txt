@@ -1,0 +1,7 @@
+E:\MyLib\DanielLib\DanielLib.Utilities\bin\Debug\DanielLib.Utilities.dll
+E:\MyLib\DanielLib\DanielLib.Utilities\bin\Debug\DanielLib.Utilities.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities\bin\Debug\log4net.dll
+E:\MyLib\DanielLib\DanielLib.Utilities\obj\Debug\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Utilities\obj\Debug\DanielLib.Utilities.dll
+E:\MyLib\DanielLib\DanielLib.Utilities\obj\Debug\DanielLib.Utilities.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities\bin\Debug\ICSharpCode.SharpZipLib.dll
