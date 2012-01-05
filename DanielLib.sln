@@ -17,11 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{B7A5B6E9-193A-4BE4-8EFF-CEA2E1D72CFE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{BF95166A-28A2-4FF6-BC17-45200415A604}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util.Demo", "Util.Demo", "{BF95166A-28A2-4FF6-BC17-45200415A604}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplication", "WPFMediaKit.Test\SampleApplication.csproj", "{0FBBCF6E-EDA2-4E1F-B84C-7F448F22724E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daniellib.Util.Effects", "DanielLib.Util.Effects\Daniellib.Util.Effects.csproj", "{CB513E0E-31BE-492E-B02B-5C9EDA6F53D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielLib.Surface.Presentation", "DanielLib.Surface.Presentation\DanielLib.Surface.Presentation.csproj", "{290ABE3D-B9B0-4346-B928-A70D30DE847B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Surface.Presentation", "Surface.Presentation", "{DD9AD6CF-9C95-4B87-96F5-32D556001A74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +119,16 @@ Global
 		{CB513E0E-31BE-492E-B02B-5C9EDA6F53D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CB513E0E-31BE-492E-B02B-5C9EDA6F53D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CB513E0E-31BE-492E-B02B-5C9EDA6F53D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,5 +142,6 @@ Global
 		{6030628D-EE93-4D61-B6BE-8B6AE99F3935} = {B7A5B6E9-193A-4BE4-8EFF-CEA2E1D72CFE}
 		{223E01EF-146B-497A-92F0-F0E961DD128D} = {B7A5B6E9-193A-4BE4-8EFF-CEA2E1D72CFE}
 		{CB513E0E-31BE-492E-B02B-5C9EDA6F53D8} = {B7A5B6E9-193A-4BE4-8EFF-CEA2E1D72CFE}
+		{290ABE3D-B9B0-4346-B928-A70D30DE847B} = {DD9AD6CF-9C95-4B87-96F5-32D556001A74}
 	EndGlobalSection
 EndGlobal
