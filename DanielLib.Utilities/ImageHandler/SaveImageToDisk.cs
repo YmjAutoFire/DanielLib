@@ -10,8 +10,13 @@ using System.IO;
 
 namespace DanielLib.Utilities.ImageHandler
 {
+    /// <summary>
+    /// 保存图片的一些基本操作
+    /// </summary>
     public class SaveImageToDisk
     {
+        #region SaveImageToDisk 属性
+
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         public static extern bool DeleteObject(IntPtr handle);
         public static BitmapSource bs;
@@ -25,6 +30,10 @@ namespace DanielLib.Utilities.ImageHandler
             DeleteObject(ip);
             return bs;
         }
+
+        #endregion
+
+        #region SaveImageToDisk 保存UI组件为图片
 
         public static BitmapSource SaveCanvasToJpeg(Canvas mCanvas, string mFileName)
         {
@@ -67,5 +76,17 @@ namespace DanielLib.Utilities.ImageHandler
 
             return mBS;
         }
+
+        #endregion
+
+        #region SaveImageToDisk 判断后缀是否是图片
+
+        public static bool IsImageExt(string ext)
+        {
+            string[] exts = { ".jpg", ".png", ".gif", ".tiff", ".bmp", ".jpeg" };
+            return exts.Contains(ext.ToLower());
+        }
+
+        #endregion
     }
 }

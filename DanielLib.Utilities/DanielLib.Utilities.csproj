@@ -65,6 +65,7 @@
     <Compile Include="LogHandler\LoggerUtil.cs" />
     <Compile Include="LogHandler\LoggingMode.cs" />
     <Compile Include="LogHandler\ShareFileLogger.cs" />
+    <Compile Include="MathHelper\ExtMathUtil.cs" />
     <Compile Include="MediaHandler\MediaHandler.cs" />
     <Compile Include="NetworkHandler\NetHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
