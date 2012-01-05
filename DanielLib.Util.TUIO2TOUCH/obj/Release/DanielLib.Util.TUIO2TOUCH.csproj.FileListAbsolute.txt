@@ -13,3 +13,8 @@ G:\1_Application\DanielLib\DanielLib.Util.TUIO2TOUCH\bin\Release\DanielLib.Util.
 G:\1_Application\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\ResolveAssemblyReference.cache
 G:\1_Application\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\DanielLib.Util.TUIO2TOUCH.dll
 G:\1_Application\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\DanielLib.Util.TUIO2TOUCH.pdb
+E:\MyLib\DanielLib\DanielLib.Util.TUIO2TOUCH\bin\Release\DanielLib.Util.TUIO2TOUCH.dll
+E:\MyLib\DanielLib\DanielLib.Util.TUIO2TOUCH\bin\Release\DanielLib.Util.TUIO2TOUCH.pdb
+E:\MyLib\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\DanielLib.Util.TUIO2TOUCH.dll
+E:\MyLib\DanielLib\DanielLib.Util.TUIO2TOUCH\obj\Release\DanielLib.Util.TUIO2TOUCH.pdb

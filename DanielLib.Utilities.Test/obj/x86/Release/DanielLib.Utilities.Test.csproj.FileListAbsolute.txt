@@ -9,3 +9,12 @@ G:\1_Application\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilit
 G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\ResolveAssemblyReference.cache
 G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.exe
 G:\1_Application\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe.config
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.exe
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.Test.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.dll
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\log4net.dll
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\bin\Release\DanielLib.Utilities.pdb
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.exe
+E:\MyLib\DanielLib\DanielLib.Utilities.Test\obj\x86\Release\DanielLib.Utilities.Test.pdb

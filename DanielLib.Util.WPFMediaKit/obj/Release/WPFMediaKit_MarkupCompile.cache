@@ -4,7 +4,7 @@
 library
 C#
 .cs
-G:\1_Application\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\
+E:\MyLib\DanielLib\DanielLib.Util.WPFMediaKit\obj\Release\
 WPFMediaKit
 none
 false
@@ -13,6 +13,6 @@ TRACE
 2-235464988
 
 26-1341841212
-14-186672945
+14-413893885
 Themes\generic.xaml;Themes\MediaDetectorGeneric.xaml;
 

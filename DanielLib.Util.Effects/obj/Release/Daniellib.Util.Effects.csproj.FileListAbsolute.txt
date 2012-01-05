@@ -10,3 +10,9 @@ G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\ResolveAssemblyRef
 G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.g.resources
 G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.dll
 G:\1_Application\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.pdb
+E:\MyLib\DanielLib\DanielLib.Util.Effects\bin\Release\Daniellib.Util.Effects.dll
+E:\MyLib\DanielLib\DanielLib.Util.Effects\bin\Release\Daniellib.Util.Effects.pdb
+E:\MyLib\DanielLib\DanielLib.Util.Effects\obj\Release\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.g.resources
+E:\MyLib\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.dll
+E:\MyLib\DanielLib\DanielLib.Util.Effects\obj\Release\Daniellib.Util.Effects.pdb
