@@ -1,0 +1,10 @@
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\DanielLib.Surface.Presentation.dll
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\DanielLib.Surface.Presentation.pdb
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\Microsoft.Surface.Presentation.Design.dll
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\Microsoft.Windows.Design.Interaction.dll
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\Microsoft.Windows.Design.Extensibility.dll
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\Microsoft.Windows.Design.Interaction.xml
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\bin\Release\Microsoft.Windows.Design.Extensibility.xml
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\obj\Release\ResolveAssemblyReference.cache
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\obj\Release\DanielLib.Surface.Presentation.dll
+E:\MyLib\DanielLib\DanielLib.Surface.Presentation\obj\Release\DanielLib.Surface.Presentation.pdb
