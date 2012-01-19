@@ -1,6 +1,0 @@
-E:\MyLib\DanielLib\DanielLib.Utilities\bin\Release\DanielLib.Utilities.dll
-E:\MyLib\DanielLib\DanielLib.Utilities\bin\Release\DanielLib.Utilities.pdb
-E:\MyLib\DanielLib\DanielLib.Utilities\bin\Release\log4net.dll
-E:\MyLib\DanielLib\DanielLib.Utilities\obj\Release\ResolveAssemblyReference.cache
-E:\MyLib\DanielLib\DanielLib.Utilities\obj\Release\DanielLib.Utilities.dll
-E:\MyLib\DanielLib\DanielLib.Utilities\obj\Release\DanielLib.Utilities.pdb
