@@ -32,6 +32,19 @@ namespace DanielLib.Surface.Presentation
         {
         }
 
+        public static void StopAnimations(AnimationClock[] animationClocks)
+        {
+            if (animationClocks != null)
+            {
+                foreach (AnimationClock clock in animationClocks)
+                    if (clock != null) clock.Controller.Stop();
+            }
+        }
+
+        public static void StopAnimation(Clock animationClock)
+        {
+            if (animationClock != null) animationClock.Controller.Stop();
+        }
 
         public static AnimationClock AnimateEasingEquation(
             DependencyObject element,

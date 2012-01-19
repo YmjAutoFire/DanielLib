@@ -81,7 +81,6 @@
     <Compile Include="AnimationHelper\EasingFunctionAnimations\SineEasingDoubleAnimation.cs" />
     <Compile Include="AnimationHelper\WPFAnimationHelper.cs" />
     <Compile Include="AnimationHelper\WPFPointAnimationHelper.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Common\SurfaceWindowExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
