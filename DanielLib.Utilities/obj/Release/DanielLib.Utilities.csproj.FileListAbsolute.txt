@@ -1,0 +1,6 @@
+G:\1_Application\DanielLib\DanielLib.Utilities\bin\Release\DanielLib.Utilities.dll
+G:\1_Application\DanielLib\DanielLib.Utilities\bin\Release\DanielLib.Utilities.pdb
+G:\1_Application\DanielLib\DanielLib.Utilities\bin\Release\log4net.dll
+G:\1_Application\DanielLib\DanielLib.Utilities\obj\Release\ResolveAssemblyReference.cache
+G:\1_Application\DanielLib\DanielLib.Utilities\obj\Release\DanielLib.Utilities.dll
+G:\1_Application\DanielLib\DanielLib.Utilities\obj\Release\DanielLib.Utilities.pdb
