@@ -60,6 +60,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -71,10 +72,22 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\BackEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\ElasticEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\ExpoEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\ExpoPointEasingAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\LinearEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\QuadEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\QuadPointEasingAnimation.cs" />
+    <Compile Include="AnimationHelper\EasingFunctionAnimations\SineEasingDoubleAnimation.cs" />
+    <Compile Include="AnimationHelper\UseSample.cs" />
+    <Compile Include="AnimationHelper\WPFAnimationHelper.cs" />
+    <Compile Include="AnimationHelper\WPFPointAnimationHelper.cs" />
+    <Compile Include="Common\SurfaceWindowExtension.cs" />
+    <Compile Include="Common\WindowExtention.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="Controls\" />
     <Folder Include="Themes\" />
   </ItemGroup>
