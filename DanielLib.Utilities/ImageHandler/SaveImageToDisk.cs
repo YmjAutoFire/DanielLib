@@ -87,6 +87,16 @@ namespace DanielLib.Utilities.ImageHandler
             return exts.Contains(ext.ToLower());
         }
 
+        public static bool IsImageExt(FileInfo file)
+        {
+            String ext = file.Extension.ToLower();
+            if (ext == ".jpg" || ext == ".gif" || ext == ".png")
+            {
+                return true;
+            }
+            return false;
+        }
+
         #endregion
     }
 }

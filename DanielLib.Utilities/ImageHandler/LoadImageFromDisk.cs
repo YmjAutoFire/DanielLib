@@ -11,7 +11,7 @@ namespace DanielLib.Utilities.ImageHandler
     {
         #region LoadImageFromDisk 从硬盘上读取图片
 
-        public BitmapSource GetImage(String filePath)
+        public static BitmapSource GetImage(String filePath)
         {
             if (!String.IsNullOrEmpty(filePath))
             {
