@@ -59,6 +59,7 @@
     <Compile Include="FileHandler\FileOperate.cs" />
     <Compile Include="FileHandler\PDFHelper.cs" />
     <Compile Include="ImageHandler\ImageClass.cs" />
+    <Compile Include="ImageHandler\ImageCollection.cs" />
     <Compile Include="ImageHandler\ImageDown.cs" />
     <Compile Include="ImageHandler\ImageThumbnail.cs" />
     <Compile Include="ImageHandler\ImageUpload.cs" />
