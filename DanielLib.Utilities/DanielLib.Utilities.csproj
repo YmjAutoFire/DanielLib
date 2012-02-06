@@ -62,6 +62,7 @@
     <Compile Include="ImageHandler\ImageDown.cs" />
     <Compile Include="ImageHandler\ImageThumbnail.cs" />
     <Compile Include="ImageHandler\ImageUpload.cs" />
+    <Compile Include="ImageHandler\LoadImageFromDisk.cs" />
     <Compile Include="ImageHandler\SaveImageToDisk.cs" />
     <Compile Include="LogHandler\ConsoleLogger.cs" />
     <Compile Include="LogHandler\DebugLogHandler.cs" />
