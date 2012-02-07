@@ -22,13 +22,14 @@ using System.Windows.Threading;
 using System.Collections.ObjectModel;
 using System.IO;
 using DanielLib.Utilities.ImageHandler;
+using Touchtech.Surface.Presentation.Controls;
 
 namespace DanielLib.TouchAppTemplate
 {
     /// <summary>
     /// Interaction logic for SurfaceWindow1.xaml
     /// </summary>
-    public partial class SurfaceWindow1 : SurfaceWindow
+    public partial class SurfaceWindow1 : OptimizedSurfaceWindow
     {
         #region SurfaceWindow ²ÎÊý
 
@@ -124,7 +125,7 @@ namespace DanielLib.TouchAppTemplate
                 Img_one.Source = imageFiles[0];
                 Img_one.Loaded += (sender, args) =>
                     {
-                        MessageBox.Show(sender.ToString());
+                        //MessageBox.Show(sender.ToString());
                     };
             }));
         }

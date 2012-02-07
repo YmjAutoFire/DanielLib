@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Windows;
+using Touchtech.Surface;
 
 namespace DanielLib.TouchAppTemplate
 {
@@ -12,5 +13,12 @@ namespace DanielLib.TouchAppTemplate
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            // Suppress Surface Input if running on Surface hardware
+            SurfaceEnvironmentHelper.TrySuppressSurfaceInputOnNonSurfaceHardware();
+
+            base.OnStartup(e);
+        }
     }
 }
