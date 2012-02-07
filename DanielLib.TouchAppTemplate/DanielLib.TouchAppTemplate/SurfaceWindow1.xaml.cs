@@ -17,6 +17,11 @@ using Microsoft.Surface.Presentation.Controls;
 using Microsoft.Surface.Presentation.Input;
 using DanielLib.Utilities.AudioHandler;
 using DanielLib.Utilities.Extentions;
+using System.Threading;
+using System.Windows.Threading;
+using System.Collections.ObjectModel;
+using System.IO;
+using DanielLib.Utilities.ImageHandler;
 
 namespace DanielLib.TouchAppTemplate
 {
@@ -27,14 +32,26 @@ namespace DanielLib.TouchAppTemplate
     {
         #region SurfaceWindow 参数
 
-        // 全局参数;
+        #region SurfaceWindow 全局参数
+
+        public static SurfaceWindow1 Instance { get; private set; }
         private int ScreenWidth = 1920;
-        // 音效管理器;
+
+        #endregion
+
+        #region SurfaceWindow 图像资源参数
+
+        private ObservableCollection<BitmapSource> imageFiles = new ObservableCollection<BitmapSource>();
+        private String ImageDirectory = @"Resources\\Background";
+
+        #endregion
+
+        #region SurfaceWindow 音效资源参数
+
         public static readonly Dictionary<String, String> audioFiles;
         private AudioManager audioManager;
         private double Volume = 0.5;
         private String SoundDirectory = @"Resources\\Sound";
-        // 音效事件;
         public delegate void AudioEventHandler(object sender, AudioEventArgs e);
         public static readonly RoutedEvent AudioEvent = EventManager.RegisterRoutedEvent("Audio", RoutingStrategy.Bubble, typeof(AudioEventHandler), typeof(SurfaceWindow1));
         public event AudioEventHandler Audio
@@ -42,6 +59,8 @@ namespace DanielLib.TouchAppTemplate
             add { AddHandler(AudioEvent, value); }
             remove { RemoveHandler(AudioEvent, value); }
         }
+
+        #endregion
 
         #endregion
 
@@ -54,24 +73,72 @@ namespace DanielLib.TouchAppTemplate
         {
             audioFiles = new Dictionary<String, String>();
             audioFiles.Add("Load", "load.mp3");
+            //...
         }
         public SurfaceWindow1()
         {
             InitializeComponent();
+            Instance = this;
             AddWindowAvailabilityHandlers();
 
-            audioManager = new AudioManager(this.ScreenWidth, this.Volume, this.SoundDirectory, audioFiles);
-            this.Audio += new AudioEventHandler(Main_Audio);
+            //加载音效资源;
+            LoadAudioResource();
+            //加载图像资源;
+            LoadImageResource();
 
+            //Sample
             //RaiseEvent(new AudioEventArgs(SurfaceWindow1.AudioEvent, this) { Audio = "Load"});
+            //Img_background.ImageSource = DanielLib.Utilities.ImageHandler.LoadImageFromDisk.GetImage(@"E:\MyLib\DanielLib\DanielLib.TouchAppTemplate\DanielLib.TouchAppTemplate\Resources\背景1.jpg");
         }
 
         #endregion
+
+        #region SurfaceWindow 加载资源
+
+        private void LoadAudioResource()
+        {
+            audioManager = new AudioManager(this.ScreenWidth, this.Volume, this.SoundDirectory, audioFiles);
+            this.Audio += new AudioEventHandler(Main_Audio);
+        }
+
+        private void LoadImageResource()
+        {
+            imageFiles.Clear();
+
+            if (!System.IO.Path.IsPathRooted(this.ImageDirectory))
+            {
+                this.ImageDirectory = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, this.ImageDirectory);
+            }
+            if (Directory.Exists(this.ImageDirectory))
+            {
+                DirectoryInfo dir = new DirectoryInfo(this.ImageDirectory);
+                foreach (FileInfo file in dir.GetFiles("*.*", SearchOption.AllDirectories))
+                {
+                    if (SaveImageToDisk.IsImageExt(file))
+                    {
+                        imageFiles.Add(LoadImageFromDisk.GetImage(file.FullName));
+                    }
+                }
+            }
+            this.Dispatcher.BeginInvoke((Action)(() => {
+                Img_one.Source = imageFiles[0];
+                Img_one.Loaded += (sender, args) =>
+                    {
+                        MessageBox.Show(sender.ToString());
+                    };
+            }));
+        }
+
+        #endregion
+
+        #region SurfaceWindow AudioManager
 
         void Main_Audio(object sender, AudioEventArgs e)
         {
             this.audioManager.PlayAudio(e);
         }
+
+        #endregion
 
         #region SurfaceWindow WindowHandler
 

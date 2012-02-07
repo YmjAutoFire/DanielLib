@@ -12,5 +12,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dll/log4net.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/icon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("daniellib.touchapptemplate.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/background/background.jpg")]
 
 
