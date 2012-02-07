@@ -23,6 +23,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using DanielLib.Utilities.ImageHandler;
 using Touchtech.Surface.Presentation.Controls;
+using DanielLib.Utilities.LogHandler;
 
 namespace DanielLib.TouchAppTemplate
 {
@@ -79,17 +80,29 @@ namespace DanielLib.TouchAppTemplate
         public SurfaceWindow1()
         {
             InitializeComponent();
+            //MainWindow Instance
             Instance = this;
             AddWindowAvailabilityHandlers();
 
             //加载音效资源;
             LoadAudioResource();
             //加载图像资源;
-            LoadImageResource();
+            //LoadImageResource();
 
             //Sample
             //RaiseEvent(new AudioEventArgs(SurfaceWindow1.AudioEvent, this) { Audio = "Load"});
             //Img_background.ImageSource = DanielLib.Utilities.ImageHandler.LoadImageFromDisk.GetImage(@"E:\MyLib\DanielLib\DanielLib.TouchAppTemplate\DanielLib.TouchAppTemplate\Resources\背景1.jpg");
+            //DebugLogHandler.logger.Debug("调试信息");
+            GlobalState.ApplicationStateChanged += new GlobalState.ApplicationStateChangedEventHandler(GlobalState_ApplicationStateChanged);
+        }
+
+        #endregion
+
+        #region SurfaceWindow Common私有成员
+
+        void GlobalState_ApplicationStateChanged(object sender, ApplicationStateChangedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
